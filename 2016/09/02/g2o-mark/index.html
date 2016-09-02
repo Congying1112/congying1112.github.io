@@ -3,20 +3,54 @@
 <head>
   <meta charset="utf-8">
   
-  <title>===============老黄历运输途中================ | Congying&#39;s</title>
+  <title>issue of g2o | Congying&#39;s</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="老黄历比较好看，向老黄历看齐">
+  <meta name="description" content="先mark下，以后详写（也有可能没有以后了… ╮（￣▽￣）╭ ）backgroud：
+
+以gps作为vertex
+以stitch结果作为edge的transition matrix
+
+mark
+
+edge的transition是在机器人坐标系下而不是世界坐标系
+camera有capture delay，跟gps有shift
+
+todo
+
+normalize gps，因为相对于g2o有效区域，gps">
 <meta property="og:type" content="article">
-<meta property="og:title" content="===============老黄历运输途中================">
-<meta property="og:url" content="http://congying.me/2016/08/05/breakline/index.html">
+<meta property="og:title" content="issue of g2o">
+<meta property="og:url" content="http://congying.me/2016/09/02/g2o-mark/index.html">
 <meta property="og:site_name" content="Congying's">
-<meta property="og:description" content="老黄历比较好看，向老黄历看齐">
-<meta property="og:image" content="http://congying.me/images/old.png">
-<meta property="og:updated_time" content="2016-08-09T03:56:26.000Z">
+<meta property="og:description" content="先mark下，以后详写（也有可能没有以后了… ╮（￣▽￣）╭ ）backgroud：
+
+以gps作为vertex
+以stitch结果作为edge的transition matrix
+
+mark
+
+edge的transition是在机器人坐标系下而不是世界坐标系
+camera有capture delay，跟gps有shift
+
+todo
+
+normalize gps，因为相对于g2o有效区域，gps">
+<meta property="og:updated_time" content="2016-09-02T10:23:39.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="===============老黄历运输途中================">
-<meta name="twitter:description" content="老黄历比较好看，向老黄历看齐">
-<meta name="twitter:image" content="http://congying.me/images/old.png">
+<meta name="twitter:title" content="issue of g2o">
+<meta name="twitter:description" content="先mark下，以后详写（也有可能没有以后了… ╮（￣▽￣）╭ ）backgroud：
+
+以gps作为vertex
+以stitch结果作为edge的transition matrix
+
+mark
+
+edge的transition是在机器人坐标系下而不是世界坐标系
+camera有capture delay，跟gps有shift
+
+todo
+
+normalize gps，因为相对于g2o有效区域，gps">
   
     <link rel="alternative" href="/atom.xml" title="Congying&#39;s" type="application/atom+xml">
   
@@ -59,56 +93,67 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-breakline" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-g2o-mark" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      ===============老黄历运输途中================
+      issue of g2o
     </h1>
   
 
       </header>
     
-    <time class="article-date" datetime="2016-08-05T03:48:07.000Z" itemprop="datePublished">08-05-2016</time>
+    <time class="article-date" datetime="2016-09-02T10:17:50.000Z" itemprop="datePublished">09-02-2016</time>
     
   </div>
   <div class="article-inner">
     <div class="article-entry" itemprop="articleBody">
       
-        <p>老黄历比较好看，向老黄历看齐<br><img src="/images/old.png" alt="Elaine&#39;s"></p>
+        <p>先mark下，以后详写（也有可能没有以后了… ╮（￣▽￣）╭ ）<br>backgroud：</p>
+<ol>
+<li>以gps作为vertex</li>
+<li>以stitch结果作为edge的transition matrix</li>
+</ol>
+<p>mark</p>
+<ol>
+<li>edge的transition是在机器人坐标系下而不是世界坐标系</li>
+<li>camera有capture delay，跟gps有shift</li>
+</ol>
+<p>todo</p>
+<ol>
+<li>normalize gps，因为相对于g2o有效区域，gps的坐标系范围实在太大啦…</li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://congying.me/2016/08/05/breakline/" data-id="cislm4xj2000171fy1otzd3mj" class="article-share-link">Share</a>
+      <a data-url="http://congying.me/2016/09/02/g2o-mark/" data-id="cislm4xiy000071fyuv0je0yi" class="article-share-link">Share</a>
       
-        <a href="http://congying.me/2016/08/05/breakline/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="http://congying.me/2016/09/02/g2o-mark/#disqus_thread" class="article-comment-link">Comments</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/slam-camera/">slam camera</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2016/08/10/install-macport/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Install MacPort
-        
-      </div>
-    </a>
   
+    <a href="/2016/08/10/update-gcc-on-osx/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">update_gcc_on_osx</div>
+    </a>
   
 </nav>
 
   
   <!-- 多说评论框 start 
-  <div class="ds-thread" data-thread-key="post-breakline" data-title="===============老黄历运输途中================" data-url="/2016/08/05/breakline/"</div>
+  <div class="ds-thread" data-thread-key="post-g2o-mark" data-title="issue of g2o" data-url="/2016/09/02/g2o-mark/"</div>
   < 多说评论框 end -->
   <!-- 多说公共JS代码 start (一个网页只需插入一次)
   <script type="text/javascript">
@@ -149,7 +194,7 @@
 <script>
   var disqus_shortname = 'congyings';
   
-  var disqus_url = 'http://congying.me/2016/08/05/breakline/';
+  var disqus_url = 'http://congying.me/2016/09/02/g2o-mark/';
   
   (function(){
     var dsq = document.createElement('script');
